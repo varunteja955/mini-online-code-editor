@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+.editor {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    flex: 1;
+    resize: none;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-family: monospace;
+    font-size: 14px;
+}
+
+#htmlCode {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+}
+
+#cssCode {
+    background-color: #263238;
+    color: #a5d6a7;
+}
+
+#jsCode {
+    background-color: #1c2833;
+    color: #f7dc6f;
+}
+
+iframe {
+    width: 50%;
+    border: none;
+    background-color: white;
+}
